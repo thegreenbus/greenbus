@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #d4e8c1;
+}
+/*navbar*/
+.navbar{
+  width: 100%;
+  background-color: #8FD14F;
+  padding: 15px;
+}
+.navbar .navbar-nav{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.navbar .navbar-nav .nav-link{
+  color: black;
+}
+
+/*welcome*/
+.welcome{
+  text-align: center;
+  
+}
+.welcome .welcome_title{
+  margin-top: 12%;
+  
+}
+.welcome .welcome_title h1{
+  font-size: 45px;
+  font-weight: 500;
+
+}
+.welcome .welcome_title p{
+  padding-top: 20px;
+  font-size: 20px;
+
+}
+.welcome .welcome_home{
+  margin-top: 20%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+ .welcome_home img{
+  vertical-align: center;
+  height: 250px;
+  width: 360px;
+}
+.button{
+  background-color: #8FD14F;
+  border-radius: 5px;
+  padding: 10px 65px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+/*content*/
+.content{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.content .box-3 {
+  margin-top: 50px;
+}
+.content .box-4{
+  margin-top: 40px;
+}
+.content .box-2 img{
+  height: 60px;
+  width: 60px;
+}
+.content .box-4 img{
+  height: 60px;
+  width: 60px;
+}
+
+/*details*/
+.details {
+  text-align: center;
+}
+.details h4{
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+.details .card{
+  border-radius: 20px;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto; 
+  background-color: #DDEBA8;
+}
+.details .card .card-body{
+  justify-content: center;
+}
+.details .card .card-body p{
+  padding-top: 20px;
+}
+/*footer*/
+.footer{
+  background-color: #8FD14F;
+  text-align: center;
+  margin-top: 120px;
+  padding:10px 0 10px 0;
+}
+.footer .card{
+  display: inline-block;
+  border-radius: 3px;
+  padding: 2px;
+  background-color: #8FD14F;
+  margin: 5px;
+}
+.footer .card img{
+  width:20px;
+  height:20px;
+}
+
+
+
+
+
