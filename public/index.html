@@ -2,183 +2,194 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="assets/images/apple-touch-icon.png" >
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>greenbus</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="assets/images/apple-touch-icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>greenbus</title>
 </head>
 
 <body>
-    <!--navbar-->
-    <section>
-       <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <!--navbar-->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img width="40" src="assets/images/titled.svg">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/titled.svg">
-        </a>
         <div class="collapse navbar-collapse" id="navbarNav">
-         <div class="navbar-nav ms-auto">
-           <a class="nav-item nav-link" href="#home">Home</a>
-           <a class="nav-item nav-link" href="#about">About</a>
-          <a class="nav-item nav-link" href="#contact">Contact us</a>
-         </div>
-         </div>
-         </div>
-        </nav>
-      </section>
-    <!--end navbar-->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--end navbar-->
 
-    <!--welcome-->
-    <section class="welcome" id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="welcome_title">
-              <h1>Welcome to our <br>
-                 bus booking site</h1>
-              <p>A unique online bus booking site.<br>
-                If you want to book a bus at a cheap cost<br>
-                  and fast rate,you've come
-                 to the right place.
-              </p>
-              
-              <div>
-              <button type="button" class="button">Book</button>
-              </div>
-            
+  <!--welcome-->
+  <section class="welcome" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="welcome_title">
+            <h1>Welcome to our <br>
+              bus booking site</h1>
+            <p>A unique online bus booking site.<br>
+              If you want to book a bus at a cheap cost<br>
+              and fast rate,you've come
+              to the right place.
+            </p>
+
+            <div class="button">
+              <a href="bookingpage.html">
+                <button type="button" class="btn btn-primary btn-lg">Book</button>
+              </a>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="welcome_home">
-              <img src="assets/images/bus.png" class="img-fluid">
+        </div>
+        <div class="col-sm-6">
+          <div class="welcome_home">
+            <img src="assets/images/bus.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end welcome-->
+
+  <!--content-->
+  <section class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="box-1">
+            <img src="assets/images/image1.png">
+            <h5>Easy to book</h5>
+            <p>Booking the bus is easy</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="box-2">
+            <img src="assets/images/convenience.png">
+            <h5>Convenient</h5>
+            <p>Can book at any place any time.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="box-3">
+            <img src="assets/images/image2.png">
+            <h5>Superior customer service</h5>
+            <p>Great customer service from<br>
+              8am to 10pm via phone or email.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="box-4">
+            <img src="assets/images/payments.png">
+            <h5>Efficient</h5>
+            <p>Booking is instant via mpesa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end content-->
+
+  <!--details-->
+  <section class="details">
+    <div class="container">
+      <div>
+        <h4>Numbers are growing:</h4>
+      </div>
+      <div class="row">
+        <div class="col-sm mb-3">
+          <div class="card">
+            <div class="card-body">
+              <p>Customers</p>
+              <p>1000+</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm mb-3">
+          <div class="card">
+            <div class="card-body">
+              <p>Busses</p>
+              <p>400+</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <p>Tickets</p>
+              <p>500+</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!--end welcome-->
+    </div>
+  </section>
+  <!--end details-->
 
-    <!--content-->
-    <section class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="box-1">
-              <img src="assets/images/image1.png">
-              <h5>Easy to book</h5>
-              <p>Booking the bus is easy</p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="box-2">
-              <img src="assets/images/convenience.png">
-              <h5>Convenient</h5>
-              <p>Can book at any place any time.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="box-3">
-              <img src="assets/images/image2.png">
-              <h5>Superior customer service</h5>
-              <p>Great customer service from<br>
-                8am to 10pm via phone or email.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="box-4">
-              <img src="assets/images/payments.png">
-              <h5>Efficient</h5>
-              <p>Booking is instant via mpesa.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end content-->
-
-    <!--details-->
-    <section class="details">
-      <div class="container">
-        <div>
-          <h4>Numbers are growing:</h4>
-        </div>
-        <div class="row">
-          <div class="col-sm mb-3">
+  <!--footer-->
+  <section class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="contact_section">
             <div class="card">
-              <div class="card-body">
-                <p>Customers</p>
-                <p>1000+</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm mb-3">
-            <div class="card">
-              <div class="card-body">
-                <p>Busses</p>
-                <p>400+</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card">
-              <div class="card-body">
-                <p>Tickets</p>
-                <p>500+</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--end details-->
-
-    <!--footer-->
-    <section class="footer" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="contact_section">
-              <div class="card">
               <img src="assets/images/twitter.png">
-              </div>
-              <div class="card">
+            </div>
+            <div class="card">
               <img src="assets/images/fb.png">
-              </div>
-              <div class="card">
+            </div>
+            <div class="card">
               <img src="assets/images/ig.png">
-              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
-            <div class="left_col">
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="left_col">
             <p>Contact us</p>
             <p>About</p>
           </div>
-          </div>
-          <div class="col-6">
-            <div class="right_col">
+        </div>
+        <div class="col-6">
+          <div class="right_col">
             <p>Terms & conditions</p>
             <p>FAQ</p>
-            </div>
           </div>
         </div>
       </div>
+    </div>
 
-    </section>
-    <!--end footer-->
+  </section>
+  <!--end footer-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </body>
 
