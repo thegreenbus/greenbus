@@ -55,7 +55,7 @@ body {
 }
 .button {
   border-radius: 5px;
-  /* padding: 10px 65px; */
+  /*padding: 10px 65px;*/ 
   font-size: 15px;
   /* margin-top: 30px; */
 }
@@ -143,11 +143,50 @@ body {
   display: inline-block; 
  
 }
-
 .container .form-details .form-select{
   border-color: #d4e8c1;
 }
 .container .form-details .button{
   text-align: center;
 }
+
+/*about*/
+.about{
+  position: relative;
+}
+.about .about-upper{
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+.about .about-upper .about-title{
+  margin: 20px 0 10px 10px; 
+}
+.about .about-lower {
+  margin-left: 10px;
+}
+.about .about-lower .about-title2 {
+  margin-left: 15px;
+}
+
+.contact{
+  margin-top: 30px;
+}
+.contact .contact-info{
+  margin-left: 40px;
+}
+.contact .form-group{
+  margin-bottom: 20px;
+}
+.contact .contact-info .info-item{
+  margin-bottom: 30px;
+}
+.contact .contact-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.btn:hover{
+  background-color: lightblue;
+}
+
+
 
