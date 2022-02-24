@@ -151,20 +151,21 @@ body {
 }
 
 /*about*/
-.about{
+.about-section{
   position: relative;
+  margin-top: 40px;
 }
-.about .about-upper{
+.about-section .about-upper{
   margin-bottom: 50px;
   margin-left: 15px;
 }
-.about .about-upper .about-title{
+.about-section .about-upper .about-title{
   margin: 20px 0 10px 10px; 
 }
-.about .about-lower {
+.about-section .about-lower {
   margin-left: 10px;
 }
-.about .about-lower .about-title2 {
+.about-section .about-lower .about-title2 {
   margin-left: 15px;
 }
 
