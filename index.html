@@ -191,6 +191,16 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+  <!-- PWA Install -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("serviceWorker.js").then(function () {
+        console.log("Service Worker Registered");
+      });
+    }
+  </script>
+
+
 </body>
 
 </html>
