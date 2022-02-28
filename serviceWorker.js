@@ -6,7 +6,7 @@ var filesToCache = [
   "./content-width.js",
   "./script.js",
   "./robots.txt",
-  "./icon.png",
+  "./android-chrome-192x192.png",
 ];
 
 self.addEventListener("install", (event) => {
