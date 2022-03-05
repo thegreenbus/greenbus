@@ -70,6 +70,7 @@ body {
 .content .box-1{
   text-align: center;
   height: 100%;
+  margin-top: 40px;
 }
 .content .box-1 img{
   height:80px;
@@ -77,6 +78,7 @@ body {
 }
 .content .box-2{
   height: 100%;
+  margin-top: 40px;
 }
 .content .box-2 img {
   height: 80px;
