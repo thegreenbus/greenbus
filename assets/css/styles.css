@@ -49,10 +49,9 @@ body {
 }
 
 .welcome_home img {
-  /* vertical-align: center; */
-  /*height: 250px;*/
+  vertical-align: center;
   height: 300px;
-  width: 400px;
+  width: 600px;
 }
 .button {
   border-radius: 5px;
